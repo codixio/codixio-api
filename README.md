@@ -105,7 +105,7 @@ Any client that supports Streamable HTTP and OAuth 2.1 can connect:
 Create an API key in your account at https://api.codixio.com/account. Every call sends it as a bearer token; keys start with `apk_`.
 
 ```bash
-# Balance, free quota per service and credit packages
+# Balance and credit packages
 curl https://api.codixio.com/v1/account \
   -H "Authorization: Bearer $CODIXIO_API_KEY"
 
@@ -122,7 +122,7 @@ Each paid call reserves the current maximum price of the service from the credit
 
 ## Pricing
 
-Prices and free quotas: https://api.codixio.com/en/pricing
+Prices: https://api.codixio.com/en/pricing
 
 ## Legal
 
