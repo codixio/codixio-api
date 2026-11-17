@@ -1,0 +1,19 @@
+# Claude Code (may contain credentials)
+.claude/
+
+# Environment and secrets
+.env*
+*.pem
+*.key
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
